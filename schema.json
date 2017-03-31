@@ -1,0 +1,53 @@
+{
+	"fields": [
+		{
+			"name": "Date",
+			"title": "Date",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+				"datePattern": "%Y-%m"
+			}
+		},
+		{
+			"name": "PercentVeryGood",
+			"title": "Percentage of responses that were Very Good",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "PercentGood",
+			"title": "Percentage of responses that were Good",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "PercentSatisfactory",
+			"title": "Percentage of responses that were Satisfactory",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "PercentPoor",
+			"title": "Percentage of responses that were Poor",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "PercentVeryPoor",
+			"title": "Percentage of responses that were Very Poor",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		}
+	]
+}
